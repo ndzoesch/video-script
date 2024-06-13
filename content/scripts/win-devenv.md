@@ -9,11 +9,11 @@ draft: false
 ## Introduction
 
 {{< screen >}}
-    Display welcome text.
+Display welcome text.
 {{< /screen >}}
 
 {{< voiceover >}}
-    Hello everyone, welcome to this video where we will walk through the installation of Shopware 6 using devenv. Whether you're a beginner or looking to refresh your knowledge, this guide will help you get started.
+Hello everyone, welcome to this video where we will walk through the installation of Shopware 6 using devenv. Whether you're a beginner or looking to refresh your knowledge, this guide will help you get started.
 {{< /voiceover >}}
 
 ## Prerequisites
