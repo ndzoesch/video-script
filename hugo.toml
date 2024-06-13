@@ -10,6 +10,6 @@ path = 'github.com/alex-shpak/hugo-book'
   unsafe = true
 
 [params]
-BookTheme = 'dark'
+BookTheme = 'auto'
 BookSection = '/'
 
