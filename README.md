@@ -1,6 +1,6 @@
 # Run locally on port 2001
 
-First install "hugo extended": [gohugo.io/installation}(https://gohugo.io/installation/)
+First install "hugo extended": [gohugo.io/installation](https://gohugo.io/installation/)
 
 Second, install dependencies: `hugo mod get -u`
 
