@@ -1,0 +1,23 @@
+{
+    "better-comments.multilineComments": true,
+    "better-comments.tagsDark": [
+        {
+            "tag": [
+                "todo",
+                "to-do"
+            ],
+            "backgroundColor": "#189eff",
+            "color": "white"
+        }
+    ],
+    "better-comments.tagsLight": [
+        {
+            "tag": [
+                "todo",
+                "to-do"
+            ],
+            "backgroundColor": "#189eff",
+            "color": "white"
+        }
+    ]
+}
