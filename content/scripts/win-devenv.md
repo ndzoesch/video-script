@@ -2,15 +2,16 @@
 title: "Shopware 6 Installation with devenv"
 date: 2024-06-13T13:41:44+02:00
 draft: false
+weight: 1000
 ---
 
 # Shopware 6 Installation with devenv
 
 ## Introduction
 
-{{< screen >}}
+{{< actions >}}
 Display welcome text.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Hello everyone, welcome to this video where we will walk through the installation of Shopware 6 using devenv. Whether you're a beginner or looking to refresh your knowledge, this guide will help you get started.
@@ -18,9 +19,9 @@ Hello everyone, welcome to this video where we will walk through the installatio
 
 ## Prerequisites
 
-{{< screen >}}
+{{< actions >}}
 Display list of system requirements and necessary software.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Before we begin, let's ensure we have everything we need. You'll need Nix, Cachix, and devenv installed on your system. Additionally, the necessary ports should be available.
@@ -30,9 +31,9 @@ Before we begin, let's ensure we have everything we need. You'll need Nix, Cachi
 
 ### Install Nix
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with Nix installation command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 First, we'll install Nix. Open your terminal and run the following command...
@@ -44,9 +45,9 @@ First, we'll install Nix. Open your terminal and run the following command...
 
 ### Set up Cachix
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with Cachix setup command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Next, we'll set up Cachix. Use this command to add the Cachix binary cache...
@@ -58,9 +59,9 @@ Next, we'll set up Cachix. Use this command to add the Cachix binary cache...
 
 ### Install devenv
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with devenv installation command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Now, let's install devenv. Run the following command in your terminal...
@@ -74,9 +75,9 @@ Now, let's install devenv. Run the following command in your terminal...
 
 ### Clone the Repository
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with Git clone command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 With our prerequisites in place, we can now clone the Shopware repository. Use the following Git command...
@@ -88,9 +89,9 @@ With our prerequisites in place, we can now clone the Shopware repository. Use t
 
 ### Start the Environment
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with 'devenv up' command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 After cloning, navigate to the project directory and run 'devenv up' to start the environment.
@@ -102,9 +103,9 @@ After cloning, navigate to the project directory and run 'devenv up' to start th
 
 ### Install Shopware
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with installation command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Once the environment is up, let's initialize Shopware. Run this command to install Shopware...
@@ -118,9 +119,9 @@ Once the environment is up, let's initialize Shopware. Run this command to insta
 
 ### Edit .env File
 
-{{< screen >}}
+{{< actions >}}
 Show text editor with `.env` file.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Now we need to configure the environment variables. Open the .env file and make the necessary changes.
@@ -128,9 +129,9 @@ Now we need to configure the environment variables. Open the .env file and make 
 
 ### Start Shopware
 
-{{< screen >}}
+{{< actions >}}
 Show terminal with start command.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 With the configuration set, let's start Shopware. Run the following command...
@@ -142,9 +143,9 @@ With the configuration set, let's start Shopware. Run the following command...
 
 ### Access Admin Interface
 
-{{< screen >}}
+{{< actions >}}
 Show browser with admin interface.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Finally, open your browser and go to 'http://localhost:8000/admin' to access the admin interface.
@@ -152,25 +153,25 @@ Finally, open your browser and go to 'http://localhost:8000/admin' to access the
 
 ## Conclusion
 
-{{< screen >}}
+{{< actions >}}
 Display summary of steps.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 We have successfully installed and configured Shopware 6 using devenv. Let's quickly recap what we did today...
 {{< /voiceover >}}
 
-{{< screen >}}
+{{< actions >}}
 Display link to further documentation.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 For more detailed information, check out the official documentation linked in the description below.
 {{< /voiceover >}}
 
-{{< screen >}}
+{{< actions >}}
 Display farewell text and credits.
-{{< /screen >}}
+{{< /actions >}}
 
 {{< voiceover >}}
 Thank you for watching! If you found this video helpful, please give it a thumbs up and subscribe to our channel for more tutorials. See you next time!
