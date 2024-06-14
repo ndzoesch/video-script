@@ -75,7 +75,8 @@ You can also use media files along with your description.
 
 This is what the page should look like:
 
-![screenshot: example.com](image.png)
+<!-- ! put your media files in a folder named as your md file to reference them directly -->
+![screenshot: example.com](example.png)
 
 - Put the browser in the center of your screen.
 - Make sure your system clock is hidden
