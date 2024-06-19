@@ -3,11 +3,34 @@ title: "Shopware 6 Installation with devenv in windows"
 draft: false
 ---
 
+{{< prep >}}
+
+- Use a clean Windows 11 installation.
+- Set your system language to english.
+- Clock should be hidden.
+- Use this [Wallpaper](shopware_wallpaper_clean_4k.jpg) as background.
+- Install [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- Remove all existing entries in the [bookmarks toolbar](https://support.mozilla.org/en-US/kb/bookmarks-toolbar-display-favorite-websites).
+- Add the [devenv install docs](https://developer.shopware.com/docs/guides/installation/devenv.html) to the toolbar.
+- [Pin](https://support.microsoft.com/en-us/windows/pin-apps-and-folders-to-the-desktop-or-taskbar-f3c749fb-e298-4cf1-adda-7fd635df6bb0) Firefox to the taskbar
+- Close firefox
+
+{{< /prep >}}
+
 ## Introduction
 
 {{< actions >}}
-Display welcome text.
+
+1. Show empty Desktop
+2. Open Firefox
+3. Open the devenv install docs from the bookmarks toolbar
+4. Scroll down the page
+
 {{< /actions >}}
+
+<!--
+TODO add actual content below
+-->
 
 {{< voiceover >}}
 Hello everyone, welcome to this video where we will walk through the installation of Shopware 6 using devenv. Whether you're a beginner or looking to refresh your knowledge, this guide will help you get started.
