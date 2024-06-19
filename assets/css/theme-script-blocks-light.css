@@ -1,0 +1,68 @@
+@import "theme-relearn-light.css";
+
+:root {
+    --PRIMARY-color: #189eff;
+  }
+
+.box {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.screen-box {
+    background-color: #a0d8ff !important;
+    color: #000 !important;
+}
+
+.voiceover-box {
+    background-color: #caffca !important;
+    color: #000 !important;
+}
+
+.preparation-box {
+    background-color: #7a7a7a !important;
+    color: #000 !important;
+}
+
+.script-title {
+    margin: 30px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span.inline-box {
+    background-color: lightgrey;
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 0 4px;
+    position: relative;
+    display: inline-block;
+}
+
+span.inline-box.info {
+    background-color: yellowgreen;
+    color: #000;
+}
+
+span.inline-box[data-info]::after {
+    content: attr(data-info);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+span.inline-box[data-info]:hover::after {
+    visibility: visible;
+    opacity: 1;
+}

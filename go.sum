@@ -1,2 +1,6 @@
+github.com/McShelby/hugo-theme-relearn v0.0.0-20240605212028-6f24d34f4442 h1:1RtA0zdTRxvcsvcYMp4h4bGlJ3hCKN1AD8YCeb7FGik=
+github.com/McShelby/hugo-theme-relearn v0.0.0-20240605212028-6f24d34f4442/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
 github.com/alex-shpak/hugo-book v0.0.0-20240518111420-7c26d9b8b731 h1:iCsZyP3V3LfQZMxfMG+kenWC+5hbInZF6pTn7cDRFf4=
 github.com/alex-shpak/hugo-book v0.0.0-20240518111420-7c26d9b8b731/go.mod h1:L4NMyzbn15fpLIpmmtDg9ZFFyTZzw87/lk7M2bMQ7ds=
+github.com/thingsym/hugo-theme-techdoc v1.0.0 h1:p1Xu8+u/d7qLhW20SwPnsZvk88ZSHmEiT0ZgGdZBHm0=
+github.com/thingsym/hugo-theme-techdoc v1.0.0/go.mod h1:LTThnoCpG8nsum5q10OLrG1LdJNI3BXzV4Qr557cmAY=

@@ -1,8 +1,6 @@
 ---
 title: "Example Script"
-date: 2024-06-14T10:01:43+02:00
 draft: false
-weight: 10
 ---
 
 <!-- 

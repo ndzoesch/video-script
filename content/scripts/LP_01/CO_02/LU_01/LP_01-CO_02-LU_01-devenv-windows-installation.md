@@ -1,11 +1,7 @@
 ---
-title: "Shopware 6 Installation with devenv"
-date: 2024-06-13T13:41:44+02:00
+title: "Shopware 6 Installation with devenv in windows"
 draft: false
-weight: 1000
 ---
-
-# Shopware 6 Installation with devenv
 
 ## Introduction
 

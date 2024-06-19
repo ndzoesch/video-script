@@ -4,12 +4,14 @@ title = 'SVS'
 
 [module]
 [[module.imports]]
-path = 'github.com/alex-shpak/hugo-book'
+path = 'github.com/McShelby/hugo-theme-relearn'
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 [params]
-BookTheme = 'auto'
-BookSection = '/'
-
+collapsibleMenu = true
+[[params.themeVariant]]
+auto = ['script-blocks-light', 'script-blocks-dark']
+identifier = 'script-blocks-auto'
+name = 'Script Blocks Light/Dark'
