@@ -1,4 +1,7 @@
 <h3 class="script-title">🎤 Voiceover</h3>
 <div class="box voiceover-box">
+    {{- with .Get "info" -}}<div>
+        <span class="inline-box info">📌 {{- . -}}</span>
+    </div>{{- end -}}
     {{- .Inner | markdownify -}}
 </div>
